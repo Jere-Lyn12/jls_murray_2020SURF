@@ -1,0 +1,167 @@
+<model>
+<species name="Core1_OFF_biocrnpyler_417220" value="6000.0" />
+<species name="complex_Core1_ON_biocrnpyler_417220" value="0.0" />
+<species name="rR1_biocrnpyler_417220" value="0.0" />
+<species name="dA2_biocrnpyler_417220" value="6000.0" />
+<species name="rR2_biocrnpyler_417220" value="0.0" />
+<species name="protein_RNAP_biocrnpyler_417220" value="150.0" />
+<species name="protein_RNAseH_biocrnpyler_417220" value="5.0" />
+<species name="complex_Core1_AI_biocrnpyler_417220" value="0.0" />
+<species name="complex_Core1_ON_protein_RNAP_biocrnpyler_417220" value="0.0" />
+<species name="complex_Core1_OFF_protein_RNAP_biocrnpyler_417220" value="0.0" />
+<species name="complex_Core1_AI_protein_RNAseH_biocrnpyler_417220" value="0.0" />
+<species name="Core2_OFF_biocrnpyler_417220" value="5000.0" />
+<species name="complex_Core2_ON_biocrnpyler_417220" value="0.0" />
+<species name="dA1_biocrnpyler_417220" value="6000.0" />
+<species name="complex_Core2_AI_biocrnpyler_417220" value="0.0" />
+<species name="complex_Core2_ON_protein_RNAP_biocrnpyler_417220" value="0.0" />
+<species name="complex_Core2_OFF_protein_RNAP_biocrnpyler_417220" value="0.0" />
+<species name="complex_Core2_AI_protein_RNAseH_biocrnpyler_417220" value="0.0" />
+
+<parameter name="k" value="0.00394" />
+<parameter name="k_r1_biocrnpyler_417220" value="0.0696" />
+<parameter name="k_r2_biocrnpyler_417220" value="0.0696" />
+<parameter name="k_r3_biocrnpyler_417220" value="38.8571428571429" />
+<parameter name="k_r3_1_biocrnpyler_417220" value="10.0" />
+<parameter name="k_r5_biocrnpyler_417220" value="0.064" />
+<parameter name="k_r6_biocrnpyler_417220" value="9.53047619047619" />
+<parameter name="k_r6_1_biocrnpyler_417220" value="10.0" />
+<parameter name="k_r8_biocrnpyler_417220" value="0.007" />
+<parameter name="k_r9_biocrnpyler_417220" value="111.824175824176" />
+<parameter name="k_r9_1_biocrnpyler_417220" value="10.0" />
+<parameter name="k_r11_biocrnpyler_417220" value="0.176" />
+<parameter name="k_r12_biocrnpyler_417220" value="0.00394" />
+<parameter name="k_r13_biocrnpyler_417220" value="0.0696" />
+<parameter name="k_r14_biocrnpyler_417220" value="0.0696" />
+<parameter name="k_r15_biocrnpyler_417220" value="38.8571428571429" />
+<parameter name="k_r15_1_biocrnpyler_417220" value="10.0" />
+<parameter name="k_r17_biocrnpyler_417220" value="0.064" />
+<parameter name="k_r18_biocrnpyler_417220" value="9.53047619047619" />
+<parameter name="k_r18_1_biocrnpyler_417220" value="10.0" />
+<parameter name="k_r20_biocrnpyler_417220" value="0.007" />
+<parameter name="k_r21_biocrnpyler_417220" value="111.824175824176" />
+<parameter name="k_r21_1_biocrnpyler_417220" value="10.0" />
+<parameter name="k_r23_biocrnpyler_417220" value="0.176" />
+<parameter name="DummyVar_BimolecularPropensity_k_0" value="0.00394" />
+<parameter name="DummyVar_BimolecularPropensity_k_1" value="0.0696" />
+<parameter name="DummyVar_BimolecularPropensity_k_2" value="0.0696" />
+<parameter name="DummyVar_BimolecularPropensity_k_3" value="38.857142857142854" />
+<parameter name="DummyVar_UnimolecularPropensity_k_4" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_5" value="0.064" />
+<parameter name="DummyVar_BimolecularPropensity_k_6" value="9.53047619047619" />
+<parameter name="DummyVar_UnimolecularPropensity_k_7" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_8" value="0.007" />
+<parameter name="DummyVar_BimolecularPropensity_k_9" value="111.82417582417582" />
+<parameter name="DummyVar_UnimolecularPropensity_k_10" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_11" value="0.176" />
+<parameter name="DummyVar_BimolecularPropensity_k_12" value="0.00394" />
+<parameter name="DummyVar_BimolecularPropensity_k_13" value="0.0696" />
+<parameter name="DummyVar_BimolecularPropensity_k_14" value="0.0696" />
+<parameter name="DummyVar_BimolecularPropensity_k_15" value="38.857142857142854" />
+<parameter name="DummyVar_UnimolecularPropensity_k_16" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_17" value="0.064" />
+<parameter name="DummyVar_BimolecularPropensity_k_18" value="9.53047619047619" />
+<parameter name="DummyVar_UnimolecularPropensity_k_19" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_20" value="0.007" />
+<parameter name="DummyVar_BimolecularPropensity_k_21" value="111.82417582417582" />
+<parameter name="DummyVar_UnimolecularPropensity_k_22" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_23" value="0.176" />
+
+<reaction text= "Core1_OFF_biocrnpyler_417220 + dA2_biocrnpyler_417220 -- complex_Core1_ON_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_0" species="Core1_OFF_biocrnpyler_417220*dA2_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_ON_biocrnpyler_417220 + rR2_biocrnpyler_417220 -- Core1_OFF_biocrnpyler_417220 + complex_Core1_AI_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_1" species="complex_Core1_ON_biocrnpyler_417220*rR2_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "dA2_biocrnpyler_417220 + rR2_biocrnpyler_417220 -- complex_Core1_AI_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_2" species="dA2_biocrnpyler_417220*rR2_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_ON_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 -- complex_Core1_ON_protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_3" species="complex_Core1_ON_biocrnpyler_417220*protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_ON_protein_RNAP_biocrnpyler_417220 -- complex_Core1_ON_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_4" species="complex_Core1_ON_protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_ON_protein_RNAP_biocrnpyler_417220 -- complex_Core1_ON_biocrnpyler_417220 + rR1_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_5" species="complex_Core1_ON_protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "Core1_OFF_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 -- complex_Core1_OFF_protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_6" species="Core1_OFF_biocrnpyler_417220*protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_OFF_protein_RNAP_biocrnpyler_417220 -- Core1_OFF_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_7" species="complex_Core1_OFF_protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_OFF_protein_RNAP_biocrnpyler_417220 -- Core1_OFF_biocrnpyler_417220 + rR1_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_8" species="complex_Core1_OFF_protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_AI_biocrnpyler_417220 + protein_RNAseH_biocrnpyler_417220 -- complex_Core1_AI_protein_RNAseH_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_9" species="complex_Core1_AI_biocrnpyler_417220*protein_RNAseH_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_AI_protein_RNAseH_biocrnpyler_417220 -- complex_Core1_AI_biocrnpyler_417220 + protein_RNAseH_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_10" species="complex_Core1_AI_protein_RNAseH_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_AI_protein_RNAseH_biocrnpyler_417220 -- dA2_biocrnpyler_417220 + protein_RNAseH_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_11" species="complex_Core1_AI_protein_RNAseH_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "Core2_OFF_biocrnpyler_417220 + dA1_biocrnpyler_417220 -- complex_Core2_ON_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_12" species="Core2_OFF_biocrnpyler_417220*dA1_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_ON_biocrnpyler_417220 + rR1_biocrnpyler_417220 -- Core2_OFF_biocrnpyler_417220 + complex_Core2_AI_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_13" species="complex_Core2_ON_biocrnpyler_417220*rR1_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "dA1_biocrnpyler_417220 + rR1_biocrnpyler_417220 -- complex_Core2_AI_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_14" species="dA1_biocrnpyler_417220*rR1_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_ON_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 -- complex_Core2_ON_protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_15" species="complex_Core2_ON_biocrnpyler_417220*protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_ON_protein_RNAP_biocrnpyler_417220 -- complex_Core2_ON_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_16" species="complex_Core2_ON_protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_ON_protein_RNAP_biocrnpyler_417220 -- complex_Core2_ON_biocrnpyler_417220 + rR2_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_17" species="complex_Core2_ON_protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "Core2_OFF_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 -- complex_Core2_OFF_protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_18" species="Core2_OFF_biocrnpyler_417220*protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_OFF_protein_RNAP_biocrnpyler_417220 -- Core2_OFF_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_19" species="complex_Core2_OFF_protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_OFF_protein_RNAP_biocrnpyler_417220 -- Core2_OFF_biocrnpyler_417220 + rR2_biocrnpyler_417220 + protein_RNAP_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_20" species="complex_Core2_OFF_protein_RNAP_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_AI_biocrnpyler_417220 + protein_RNAseH_biocrnpyler_417220 -- complex_Core2_AI_protein_RNAseH_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_21" species="complex_Core2_AI_biocrnpyler_417220*protein_RNAseH_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_AI_protein_RNAseH_biocrnpyler_417220 -- complex_Core2_AI_biocrnpyler_417220 + protein_RNAseH_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_22" species="complex_Core2_AI_protein_RNAseH_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_AI_protein_RNAseH_biocrnpyler_417220 -- dA1_biocrnpyler_417220 + protein_RNAseH_biocrnpyler_417220 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_23" species="complex_Core2_AI_protein_RNAseH_biocrnpyler_417220" />
+	<delay type="none" />
+</reaction>
+
+</model>

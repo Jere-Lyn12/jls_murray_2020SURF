@@ -1,0 +1,167 @@
+<model>
+<species name="Core1_OFF" value="0.0" />
+<species name="complex_Core1_ON" value="0.0" />
+<species name="rR1" value="0.0" />
+<species name="dA2" value="0.0" />
+<species name="rR2" value="0.0" />
+<species name="protein_RNAP" value="0.0" />
+<species name="protein_RNAseH" value="0.0" />
+<species name="complex_Core1_AI" value="0.0" />
+<species name="complex_Core1_ON_protein_RNAP" value="0.0" />
+<species name="complex_Core1_OFF_protein_RNAP" value="0.0" />
+<species name="complex_Core1_AI_protein_RNAseH" value="0.0" />
+<species name="Core2_OFF" value="0.0" />
+<species name="complex_Core2_ON" value="0.0" />
+<species name="dA1" value="0.0" />
+<species name="complex_Core2_AI" value="0.0" />
+<species name="complex_Core2_ON_protein_RNAP" value="0.0" />
+<species name="complex_Core2_OFF_protein_RNAP" value="0.0" />
+<species name="complex_Core2_AI_protein_RNAseH" value="0.0" />
+
+<parameter name="k" value="0.00394" />
+<parameter name="k_r1" value="0.0696" />
+<parameter name="k_r2" value="0.0696" />
+<parameter name="k_r3" value="38.8571428571429" />
+<parameter name="k_r3_1" value="10.0" />
+<parameter name="k_r5" value="0.064" />
+<parameter name="k_r6" value="9.53047619047619" />
+<parameter name="k_r6_1" value="10.0" />
+<parameter name="k_r8" value="0.007" />
+<parameter name="k_r9" value="111.824175824176" />
+<parameter name="k_r9_1" value="10.0" />
+<parameter name="k_r11" value="0.176" />
+<parameter name="k_r12" value="0.00394" />
+<parameter name="k_r13" value="0.0696" />
+<parameter name="k_r14" value="0.0696" />
+<parameter name="k_r15" value="38.8571428571429" />
+<parameter name="k_r15_1" value="10.0" />
+<parameter name="k_r17" value="0.064" />
+<parameter name="k_r18" value="9.53047619047619" />
+<parameter name="k_r18_1" value="10.0" />
+<parameter name="k_r20" value="0.007" />
+<parameter name="k_r21" value="111.824175824176" />
+<parameter name="k_r21_1" value="10.0" />
+<parameter name="k_r23" value="0.176" />
+<parameter name="DummyVar_BimolecularPropensity_k_0" value="0.00394" />
+<parameter name="DummyVar_BimolecularPropensity_k_1" value="0.0696" />
+<parameter name="DummyVar_BimolecularPropensity_k_2" value="0.0696" />
+<parameter name="DummyVar_BimolecularPropensity_k_3" value="38.857142857142854" />
+<parameter name="DummyVar_UnimolecularPropensity_k_4" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_5" value="0.064" />
+<parameter name="DummyVar_BimolecularPropensity_k_6" value="9.53047619047619" />
+<parameter name="DummyVar_UnimolecularPropensity_k_7" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_8" value="0.007" />
+<parameter name="DummyVar_BimolecularPropensity_k_9" value="111.82417582417582" />
+<parameter name="DummyVar_UnimolecularPropensity_k_10" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_11" value="0.176" />
+<parameter name="DummyVar_BimolecularPropensity_k_12" value="0.00394" />
+<parameter name="DummyVar_BimolecularPropensity_k_13" value="0.0696" />
+<parameter name="DummyVar_BimolecularPropensity_k_14" value="0.0696" />
+<parameter name="DummyVar_BimolecularPropensity_k_15" value="38.857142857142854" />
+<parameter name="DummyVar_UnimolecularPropensity_k_16" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_17" value="0.064" />
+<parameter name="DummyVar_BimolecularPropensity_k_18" value="9.53047619047619" />
+<parameter name="DummyVar_UnimolecularPropensity_k_19" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_20" value="0.007" />
+<parameter name="DummyVar_BimolecularPropensity_k_21" value="111.82417582417582" />
+<parameter name="DummyVar_UnimolecularPropensity_k_22" value="10.0" />
+<parameter name="DummyVar_UnimolecularPropensity_k_23" value="0.176" />
+
+<reaction text= "Core1_OFF + dA2 -- complex_Core1_ON ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_0" species="Core1_OFF*dA2" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_ON + rR2 -- Core1_OFF + complex_Core1_AI ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_1" species="complex_Core1_ON*rR2" />
+	<delay type="none" />
+</reaction>
+<reaction text= "dA2 + rR2 -- complex_Core1_AI ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_2" species="dA2*rR2" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_ON + protein_RNAP -- complex_Core1_ON_protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_3" species="complex_Core1_ON*protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_ON_protein_RNAP -- complex_Core1_ON + protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_4" species="complex_Core1_ON_protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_ON_protein_RNAP -- complex_Core1_ON + rR1 + protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_5" species="complex_Core1_ON_protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "Core1_OFF + protein_RNAP -- complex_Core1_OFF_protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_6" species="Core1_OFF*protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_OFF_protein_RNAP -- Core1_OFF + protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_7" species="complex_Core1_OFF_protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_OFF_protein_RNAP -- Core1_OFF + rR1 + protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_8" species="complex_Core1_OFF_protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_AI + protein_RNAseH -- complex_Core1_AI_protein_RNAseH ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_9" species="complex_Core1_AI*protein_RNAseH" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_AI_protein_RNAseH -- complex_Core1_AI + protein_RNAseH ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_10" species="complex_Core1_AI_protein_RNAseH" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core1_AI_protein_RNAseH -- dA2 + protein_RNAseH ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_11" species="complex_Core1_AI_protein_RNAseH" />
+	<delay type="none" />
+</reaction>
+<reaction text= "Core2_OFF + dA1 -- complex_Core2_ON ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_12" species="Core2_OFF*dA1" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_ON + rR1 -- Core2_OFF + complex_Core2_AI ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_13" species="complex_Core2_ON*rR1" />
+	<delay type="none" />
+</reaction>
+<reaction text= "dA1 + rR1 -- complex_Core2_AI ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_14" species="dA1*rR1" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_ON + protein_RNAP -- complex_Core2_ON_protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_15" species="complex_Core2_ON*protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_ON_protein_RNAP -- complex_Core2_ON + protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_16" species="complex_Core2_ON_protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_ON_protein_RNAP -- complex_Core2_ON + rR2 + protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_17" species="complex_Core2_ON_protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "Core2_OFF + protein_RNAP -- complex_Core2_OFF_protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_18" species="Core2_OFF*protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_OFF_protein_RNAP -- Core2_OFF + protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_19" species="complex_Core2_OFF_protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_OFF_protein_RNAP -- Core2_OFF + rR2 + protein_RNAP ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_20" species="complex_Core2_OFF_protein_RNAP" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_AI + protein_RNAseH -- complex_Core2_AI_protein_RNAseH ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_21" species="complex_Core2_AI*protein_RNAseH" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_AI_protein_RNAseH -- complex_Core2_AI + protein_RNAseH ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_22" species="complex_Core2_AI_protein_RNAseH" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Core2_AI_protein_RNAseH -- dA1 + protein_RNAseH ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_23" species="complex_Core2_AI_protein_RNAseH" />
+	<delay type="none" />
+</reaction>
+
+</model>
