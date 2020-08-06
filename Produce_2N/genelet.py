@@ -117,7 +117,7 @@ class Genelet(Promoter):
             self.activator2 = None
             self.inhibitor2 = None
         
-        custom_mechanisms = {"transcription": TranscriptionSwitch(), "catalysis":MichaelisMenten() , "degradation":MichaelisMenten()} 
+        custom_mechanisms = {"transcription": TranscriptionSwitch(), "catalysis": MichalisMentenCopy(), "degradation": MichalisMenten()} 
         
         Promoter.__init__(self, name = name, transcript = transcript, mechanisms = custom_mechanisms, **keywords)
 

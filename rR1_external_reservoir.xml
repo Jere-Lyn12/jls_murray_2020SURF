@@ -22,7 +22,7 @@
       <compartment id="external_reservoir" name="external_reservoir" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="rR1_e" name="rR1_e" compartment="external_reservoir" initialConcentration="10" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_e" name="rna_rR1_e" compartment="external_reservoir" initialConcentration="10" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
   </model>
 </sbml>
