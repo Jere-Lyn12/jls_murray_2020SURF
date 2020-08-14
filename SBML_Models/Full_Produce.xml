@@ -12,18 +12,18 @@
       <compartment id="default_biocrnpyler_381549_combined" name="default" spatialDimensions="3" size="2e-06" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="Prod2_OFF_biocrnpyler_381549" name="Prod2_OFF" compartment="default_biocrnpyler_381549_combined" initialAmount="5000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Prod2_OFF_biocrnpyler_381549" name="Prod2_OFF" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_Prod2_ON_biocrnpyler_381549" name="complex_Prod2_ON" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="dna_dA1_biocrnpyler_381549" name="dna_dA1" compartment="default_biocrnpyler_381549_combined" initialAmount="5000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dna_dA1_biocrnpyler_381549" name="dna_dA1" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="rna_rR1_biocrnpyler_381549" name="rna_rR1" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAP_biocrnpyler_381549" name="protein_RNAP" compartment="default_biocrnpyler_381549_combined" initialAmount="200" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAseH_biocrnpyler_381549" name="protein_RNAseH" compartment="default_biocrnpyler_381549_combined" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAP_biocrnpyler_381549" name="protein_RNAP" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAseH_biocrnpyler_381549" name="protein_RNAseH" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_Prod2_AI_biocrnpyler_381549" name="complex_Prod2_AI" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_Prod2_ON_protein_RNAP_biocrnpyler_381549" name="complex_Prod2_ON_protein_RNAP" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549" name="complex_Prod2_OFF_protein_RNAP" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549" name="complex_Prod2_AI_protein_RNAseH" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="BrocApt_biocrnpyler_381549_1_combined" name="BrocApt" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="DFHBI_biocrnpyler_35010" name="DFHBI" compartment="default_biocrnpyler_381549_combined" initialAmount="60000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DFHBI_biocrnpyler_35010" name="DFHBI" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_BrocApt_DFHBI_biocrnpyler_35010" name="complex_BrocApt_DFHBI" compartment="default_biocrnpyler_381549_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfReactions>

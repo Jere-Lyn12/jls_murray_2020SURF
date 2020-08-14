@@ -19,9 +19,9 @@
     </listOfCompartments>
     <listOfSpecies>
       <species id="rna_rR1_e" name="rna_rR1_e" compartment="external" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR1_i" name="rna_rR1_i" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="VirE2_b" name="VirE2_b" compartment="internal" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="VirE2_b_rna_rR1_i" name="VirE2_b_rna_rR1_i" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1" name="rna_rR1" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="sid" name="sid" compartment="internal" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_sid" name="rna_rR1_sid" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="kb" name="kb" value="0.2" units="per_second" constant="false"/>
@@ -30,11 +30,11 @@
     <listOfReactions>
       <reaction id="R1" reversible="true">
         <listOfReactants>
-          <speciesReference species="VirE2_b" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR1_i" stoichiometry="1" constant="false"/>
+          <speciesReference species="sid" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="VirE2_b_rna_rR1_i" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1_sid" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -43,25 +43,25 @@
               <apply>
                 <times/>
                 <ci> kb </ci>
-                <ci> VirE2_b </ci>
-                <ci> rna_rR1_i </ci>
+                <ci> sid </ci>
+                <ci> rna_rR1 </ci>
               </apply>
               <apply>
                 <times/>
                 <ci> kd </ci>
-                <ci> VirE2_b_rna_rR1_i </ci>
+                <ci> rna_rR1_sid </ci>
               </apply>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R2" reversible="true">
+      <reaction id="R2" reversible="false">
         <listOfReactants>
-          <speciesReference species="VirE2_b_rna_rR1_i" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1_sid" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="rna_rR1_e" stoichiometry="1" constant="false"/>
-          <speciesReference species="VirE2_b" stoichiometry="1" constant="false"/>
+          <speciesReference species="sid" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -70,12 +70,12 @@
               <apply>
                 <times/>
                 <ci> kd </ci>
-                <ci> VirE2_b_rna_rR1_i </ci>
+                <ci> rna_rR1_sid </ci>
               </apply>
               <apply>
                 <times/>
                 <ci> kb </ci>
-                <ci> VirE2_b </ci>
+                <ci> sid </ci>
                 <ci> rna_rR1_e </ci>
               </apply>
             </apply>

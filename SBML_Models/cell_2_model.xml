@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
-  <model id="combined_model_of__combined_model_of__external_reservoir_model_combined_model_of__rR1_membrane_combined_model_of__biocrnpyler_622810" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
+  <model id="combined_model_of__combined_model_of__external_reservoir_model_combined_model_of__rnaexp_membrane_combined_model_of__biocrnpyler_622810" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
     <listOfUnitDefinitions>
       <unitDefinition id="square_metre">
         <listOfUnits>
@@ -19,41 +19,44 @@
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment id="cell_1_external_combined" name="cell_1_external" spatialDimensions="3" size="2e-06" units="litre" constant="true"/>
-      <compartment id="cell_1_internal_combined" name="cell_1_internal" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
+      <compartment id="cell_2_external_combined" name="cell_2_external" spatialDimensions="3" size="2e-06" units="litre" constant="true"/>
+      <compartment id="cell_2_internal_combined" name="cell_2_internal" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="rna_rR1_e_external_reservoir_model_1_combined" name="rna_rR1_e" compartment="cell_1_external_combined" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="Core1_OFF_biocrnpyler_622810" name="Core1_OFF" compartment="cell_1_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_ON_biocrnpyler_622810" name="complex_Core1_ON" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR1_1_combined" name="rna_rR1" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="dna_dA2_biocrnpyler_622810" name="dna_dA2" compartment="cell_1_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR2_biocrnpyler_622810" name="rna_rR2" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAP_biocrnpyler_622810" name="protein_RNAP" compartment="cell_1_internal_combined" initialAmount="300" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAseH_biocrnpyler_622810" name="protein_RNAseH" compartment="cell_1_internal_combined" initialAmount="40" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_AI_biocrnpyler_622810" name="complex_Core1_AI" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_ON_protein_RNAP_biocrnpyler_622810" name="complex_Core1_ON_protein_RNAP" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_OFF_protein_RNAP_biocrnpyler_622810" name="complex_Core1_OFF_protein_RNAP" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_AI_protein_RNAseH_biocrnpyler_622810" name="complex_Core1_AI_protein_RNAseH" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="Core2_OFF_biocrnpyler_622810" name="Core2_OFF" compartment="cell_1_internal_combined" initialAmount="4000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_ON_biocrnpyler_622810" name="complex_Core2_ON" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="dna_dA1_biocrnpyler_622810" name="dna_dA1" compartment="cell_1_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_AI_biocrnpyler_622810" name="complex_Core2_AI" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_ON_protein_RNAP_biocrnpyler_622810" name="complex_Core2_ON_protein_RNAP" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_OFF_protein_RNAP_biocrnpyler_622810" name="complex_Core2_OFF_protein_RNAP" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_AI_protein_RNAseH_biocrnpyler_622810" name="complex_Core2_AI_protein_RNAseH" compartment="cell_1_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_e_external_reservoir_model_1_combined" name="rna_rR1_e" compartment="cell_2_external_combined" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="sid" name="sid" compartment="cell_2_internal_combined" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_sid" name="rna_rR1_sid" compartment="cell_2_internal_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Core1_OFF_biocrnpyler_622810" name="Core1_OFF" compartment="cell_2_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_ON_biocrnpyler_622810" name="complex_Core1_ON" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_1_combined" name="rna_rR1" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dna_dA2_biocrnpyler_622810" name="dna_dA2" compartment="cell_2_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR2_biocrnpyler_622810" name="rna_rR2" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAP_biocrnpyler_622810" name="protein_RNAP" compartment="cell_2_internal_combined" initialAmount="150" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAseH_biocrnpyler_622810" name="protein_RNAseH" compartment="cell_2_internal_combined" initialAmount="20" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_AI_biocrnpyler_622810" name="complex_Core1_AI" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_ON_protein_RNAP_biocrnpyler_622810" name="complex_Core1_ON_protein_RNAP" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_OFF_protein_RNAP_biocrnpyler_622810" name="complex_Core1_OFF_protein_RNAP" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_AI_protein_RNAseH_biocrnpyler_622810" name="complex_Core1_AI_protein_RNAseH" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Core2_OFF_biocrnpyler_622810" name="Core2_OFF" compartment="cell_2_internal_combined" initialAmount="5000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_ON_biocrnpyler_622810" name="complex_Core2_ON" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dna_dA1_biocrnpyler_622810" name="dna_dA1" compartment="cell_2_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_AI_biocrnpyler_622810" name="complex_Core2_AI" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_ON_protein_RNAP_biocrnpyler_622810" name="complex_Core2_ON_protein_RNAP" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_OFF_protein_RNAP_biocrnpyler_622810" name="complex_Core2_OFF_protein_RNAP" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_AI_protein_RNAseH_biocrnpyler_622810" name="complex_Core2_AI_protein_RNAseH" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
-      <parameter id="kb" name="kb" value="0.002" units="per_second" constant="false"/>
-      <parameter id="kd" name="kd" value="1e-05" units="per_second" constant="false"/>
+      <parameter id="kb" name="kb" value="0.2" units="per_second" constant="false"/>
+      <parameter id="kd" name="kd" value="0.01" units="per_second" constant="false"/>
     </listOfParameters>
     <listOfReactions>
-      <reaction id="r1" reversible="true">
+      <reaction id="R1" reversible="true">
         <listOfReactants>
-          <speciesReference species="rna_rR1_e_external_reservoir_model_1_combined" stoichiometry="1" constant="false"/>
+          <speciesReference species="sid" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1_1_combined" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="rna_rR1_1_combined" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1_sid" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -62,12 +65,40 @@
               <apply>
                 <times/>
                 <ci> kb </ci>
-                <ci> rna_rR1_e_external_reservoir_model_1_combined </ci>
+                <ci> sid </ci>
+                <ci> rna_rR1_1_combined </ci>
               </apply>
               <apply>
                 <times/>
                 <ci> kd </ci>
-                <ci> rna_rR1_1_combined </ci>
+                <ci> rna_rR1_sid </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R2" reversible="true">
+        <listOfReactants>
+          <speciesReference species="rna_rR1_sid" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_rR1_e_external_reservoir_model_1_combined" stoichiometry="1" constant="false"/>
+          <speciesReference species="sid" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kd </ci>
+                <ci> rna_rR1_sid </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kb </ci>
+                <ci> sid </ci>
+                <ci> rna_rR1_e_external_reservoir_model_1_combined </ci>
               </apply>
             </apply>
           </math>

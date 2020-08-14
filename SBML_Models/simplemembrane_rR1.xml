@@ -18,8 +18,8 @@
       <compartment id="external" name="external" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="rna_rR1_e" name="rna_rR1_e" compartment="external" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR1_i" name="rna_rR1_i" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_e" name="rna_rR1_e" compartment="external" initialConcentration="10000" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1" name="rna_rR1" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="kb" name="kb" value="0.002" units="per_second" constant="false"/>
@@ -31,7 +31,7 @@
           <speciesReference species="rna_rR1_e" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="rna_rR1_i" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -45,7 +45,7 @@
               <apply>
                 <times/>
                 <ci> kd </ci>
-                <ci> rna_rR1_i </ci>
+                <ci> rna_rR1 </ci>
               </apply>
             </apply>
           </math>

@@ -19,32 +19,32 @@
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment id="cell_2_external_combined" name="cell_2_external" spatialDimensions="3" size="2e-06" units="litre" constant="true"/>
-      <compartment id="cell_2_internal_combined" name="cell_2_internal" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
+      <compartment id="cell_3_external_combined" name="cell_3_external" spatialDimensions="3" size="2e-06" units="litre" constant="true"/>
+      <compartment id="cell_3_internal_combined" name="cell_3_internal" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="rna_rR1_external_reservoir_model_1_combined" name="rna_rR1" compartment="cell_2_external_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="VirE2_b" name="VirE2_b" compartment="cell_2_internal_combined" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="VirE2_b_rna_rR1" name="VirE2_b_rna_rR1" compartment="cell_2_internal_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="Core1_OFF_biocrnpyler_135091" name="Core1_OFF" compartment="cell_2_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_ON_biocrnpyler_135091" name="complex_Core1_ON" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR1_1_1_combined" name="rna_rR1" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="dna_dA2_biocrnpyler_135091" name="dna_dA2" compartment="cell_2_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR2_biocrnpyler_135091" name="rna_rR2" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAP_biocrnpyler_135091" name="protein_RNAP" compartment="cell_2_internal_combined" initialAmount="150" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAseH_biocrnpyler_135091" name="protein_RNAseH" compartment="cell_2_internal_combined" initialAmount="50" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_AI_biocrnpyler_135091" name="complex_Core1_AI" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_ON_protein_RNAP_biocrnpyler_135091" name="complex_Core1_ON_protein_RNAP" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_OFF_protein_RNAP_biocrnpyler_135091" name="complex_Core1_OFF_protein_RNAP" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_AI_protein_RNAseH_biocrnpyler_135091" name="complex_Core1_AI_protein_RNAseH" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="Core2_OFF_biocrnpyler_135091" name="Core2_OFF" compartment="cell_2_internal_combined" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_ON_biocrnpyler_135091" name="complex_Core2_ON" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="dna_dA1_biocrnpyler_135091" name="dna_dA1" compartment="cell_2_internal_combined" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR1_i_biocrnpyler_135091" name="rna_rR1_i" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_AI_biocrnpyler_135091" name="complex_Core2_AI" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_ON_protein_RNAP_biocrnpyler_135091" name="complex_Core2_ON_protein_RNAP" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_OFF_protein_RNAP_biocrnpyler_135091" name="complex_Core2_OFF_protein_RNAP" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_AI_protein_RNAseH_biocrnpyler_135091" name="complex_Core2_AI_protein_RNAseH" compartment="cell_2_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_external_reservoir_model_1_combined" name="rna_rR1" compartment="cell_3_external_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="VirE2_b" name="VirE2_b" compartment="cell_3_internal_combined" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="VirE2_b_rna_rR1" name="VirE2_b_rna_rR1" compartment="cell_3_internal_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Core1_OFF_biocrnpyler_135091" name="Core1_OFF" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_ON_biocrnpyler_135091" name="complex_Core1_ON" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_1_1_combined" name="rna_rR1" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dna_dA2_biocrnpyler_135091" name="dna_dA2" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR2_biocrnpyler_135091" name="rna_rR2" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAP_biocrnpyler_135091" name="protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAseH_biocrnpyler_135091" name="protein_RNAseH" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_AI_biocrnpyler_135091" name="complex_Core1_AI" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_ON_protein_RNAP_biocrnpyler_135091" name="complex_Core1_ON_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_OFF_protein_RNAP_biocrnpyler_135091" name="complex_Core1_OFF_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_AI_protein_RNAseH_biocrnpyler_135091" name="complex_Core1_AI_protein_RNAseH" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Core2_OFF_biocrnpyler_135091" name="Core2_OFF" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_ON_biocrnpyler_135091" name="complex_Core2_ON" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dna_dA1_biocrnpyler_135091" name="dna_dA1" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_i_biocrnpyler_135091" name="rna_rR1_i" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_AI_biocrnpyler_135091" name="complex_Core2_AI" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_ON_protein_RNAP_biocrnpyler_135091" name="complex_Core2_ON_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_OFF_protein_RNAP_biocrnpyler_135091" name="complex_Core2_OFF_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_AI_protein_RNAseH_biocrnpyler_135091" name="complex_Core2_AI_protein_RNAseH" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="kb" name="kb" value="0.01" units="per_second" constant="false"/>
