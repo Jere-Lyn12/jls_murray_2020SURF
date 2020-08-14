@@ -55,7 +55,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R2" reversible="false">
+      <reaction id="R2" reversible="true">
         <listOfReactants>
           <speciesReference species="rna_rR1_sid" stoichiometry="1" constant="false"/>
         </listOfReactants>

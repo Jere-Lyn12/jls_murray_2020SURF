@@ -1,31 +1,36 @@
 <model>
-<species name="Prod2_OFF_biocrnpyler_381549" value="5000.0" />
-<species name="complex_Prod2_ON_biocrnpyler_381549" value="0.0" />
-<species name="dna_dA1_biocrnpyler_381549" value="5000.0" />
-<species name="rna_rR1_biocrnpyler_381549" value="0.0" />
-<species name="protein_RNAP_biocrnpyler_381549" value="200.0" />
-<species name="protein_RNAseH_biocrnpyler_381549" value="0.0" />
-<species name="complex_Prod2_AI_biocrnpyler_381549" value="0.0" />
-<species name="complex_Prod2_ON_protein_RNAP_biocrnpyler_381549" value="0.0" />
-<species name="complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549" value="0.0" />
-<species name="complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549" value="0.0" />
-<species name="BrocApt_biocrnpyler_381549_1_combined" value="0.0" />
-<species name="DFHBI_biocrnpyler_35010" value="60000.0" />
-<species name="complex_BrocApt_DFHBI_biocrnpyler_35010" value="0.0" />
+<species name="rna_rR1_e_external_reservoir_model_1_combined" value="0.0" />
+<species name="sid" value="1.0" />
+<species name="rna_rR1_sid" value="0.0" />
+<species name="Prod2_OFF_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="5000.0" />
+<species name="complex_Prod2_ON_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.0" />
+<species name="dna_dA1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="6000.0" />
+<species name="rna_rR1_1_combined" value="0.0" />
+<species name="protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="150.0" />
+<species name="protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="20.0" />
+<species name="complex_Prod2_AI_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.0" />
+<species name="complex_Prod2_ON_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.0" />
+<species name="complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.0" />
+<species name="complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.0" />
+<species name="BrocApt_biocrnpyler_381549_1_combined_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.0" />
+<species name="DFHBI_biocrnpyler_35010_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="60000.0" />
+<species name="complex_BrocApt_DFHBI_biocrnpyler_35010_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.0" />
 
+<parameter name="kb" value="0.2" />
+<parameter name="kd" value="0.01" />
 <parameter name="k" value="0.00394" />
-<parameter name="k_r1_biocrnpyler_381549" value="0.0696" />
-<parameter name="k_r2_biocrnpyler_381549" value="0.0696" />
-<parameter name="k_r3_biocrnpyler_381549" value="38.8571428571429" />
-<parameter name="k_r3_1_biocrnpyler_381549" value="10.0" />
-<parameter name="k_r5_biocrnpyler_381549" value="0.064" />
-<parameter name="k_r6_biocrnpyler_381549" value="9.53047619047619" />
-<parameter name="k_r6_1_biocrnpyler_381549" value="10.0" />
-<parameter name="k_r8_biocrnpyler_381549" value="0.007" />
-<parameter name="k_r9_biocrnpyler_381549" value="111.824175824176" />
-<parameter name="k_r9_1_biocrnpyler_381549" value="10.0" />
-<parameter name="k_r11_biocrnpyler_381549" value="0.176" />
-<parameter name="k_r0_biocrnpyler_35010" value="9.96e-05" />
+<parameter name="k_r1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.0696" />
+<parameter name="k_r2_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.0696" />
+<parameter name="k_r3_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="38.8571428571429" />
+<parameter name="k_r3_1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="10.0" />
+<parameter name="k_r5_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.064" />
+<parameter name="k_r6_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="9.53047619047619" />
+<parameter name="k_r6_1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="10.0" />
+<parameter name="k_r8_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.007" />
+<parameter name="k_r9_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="111.824175824176" />
+<parameter name="k_r9_1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="10.0" />
+<parameter name="k_r11_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="0.176" />
+<parameter name="k_r0_biocrnpyler_35010_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" value="9.96e-05" />
 <parameter name="DummyVar_BimolecularPropensity_k_0" value="0.00394" />
 <parameter name="DummyVar_BimolecularPropensity_k_1" value="0.0696" />
 <parameter name="DummyVar_BimolecularPropensity_k_2" value="0.0696" />
@@ -40,56 +45,64 @@
 <parameter name="DummyVar_UnimolecularPropensity_k_11" value="0.176" />
 <parameter name="DummyVar_BimolecularPropensity_k_12" value="9.96e-05" />
 
-<reaction text= "Prod2_OFF_biocrnpyler_381549 + dna_dA1_biocrnpyler_381549 -- complex_Prod2_ON_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_0" species="Prod2_OFF_biocrnpyler_381549*dna_dA1_biocrnpyler_381549" />
+<reaction text= "sid + rna_rR1_1_combined -- rna_rR1_sid ">
+	<propensity type="general" rate="_kb*rna_rR1_1_combined*sid - _kd*rna_rR1_sid" />
 	<delay type="none" />
 </reaction>
-<reaction text= "complex_Prod2_ON_biocrnpyler_381549 + rna_rR1_biocrnpyler_381549 -- Prod2_OFF_biocrnpyler_381549 + complex_Prod2_AI_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_1" species="complex_Prod2_ON_biocrnpyler_381549*rna_rR1_biocrnpyler_381549" />
+<reaction text= "rna_rR1_sid -- rna_rR1_e_external_reservoir_model_1_combined + sid ">
+	<propensity type="general" rate="-_kb*rna_rR1_e_external_reservoir_model_1_combined*sid + _kd*rna_rR1_sid" />
 	<delay type="none" />
 </reaction>
-<reaction text= "dna_dA1_biocrnpyler_381549 + rna_rR1_biocrnpyler_381549 -- complex_Prod2_AI_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_2" species="dna_dA1_biocrnpyler_381549*rna_rR1_biocrnpyler_381549" />
+<reaction text= "Prod2_OFF_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + dna_dA1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- complex_Prod2_ON_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_0" species="Prod2_OFF_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010*dna_dA1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
 	<delay type="none" />
 </reaction>
-<reaction text= "complex_Prod2_ON_biocrnpyler_381549 + protein_RNAP_biocrnpyler_381549 -- complex_Prod2_ON_protein_RNAP_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_3" species="complex_Prod2_ON_biocrnpyler_381549*protein_RNAP_biocrnpyler_381549" />
+<reaction text= "complex_Prod2_ON_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + rna_rR1_1_combined -- Prod2_OFF_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + complex_Prod2_AI_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_1" species="complex_Prod2_ON_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010*rna_rR1_1_combined" />
 	<delay type="none" />
 </reaction>
-<reaction text= "complex_Prod2_ON_protein_RNAP_biocrnpyler_381549 -- complex_Prod2_ON_biocrnpyler_381549 + protein_RNAP_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_4" species="complex_Prod2_ON_protein_RNAP_biocrnpyler_381549" />
+<reaction text= "dna_dA1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + rna_rR1_1_combined -- complex_Prod2_AI_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_2" species="dna_dA1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010*rna_rR1_1_combined" />
 	<delay type="none" />
 </reaction>
-<reaction text= "complex_Prod2_ON_protein_RNAP_biocrnpyler_381549 -- complex_Prod2_ON_biocrnpyler_381549 + BrocApt_biocrnpyler_381549_1_combined + protein_RNAP_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_5" species="complex_Prod2_ON_protein_RNAP_biocrnpyler_381549" />
+<reaction text= "complex_Prod2_ON_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- complex_Prod2_ON_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_3" species="complex_Prod2_ON_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010*protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
 	<delay type="none" />
 </reaction>
-<reaction text= "Prod2_OFF_biocrnpyler_381549 + protein_RNAP_biocrnpyler_381549 -- complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_6" species="Prod2_OFF_biocrnpyler_381549*protein_RNAP_biocrnpyler_381549" />
+<reaction text= "complex_Prod2_ON_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- complex_Prod2_ON_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_4" species="complex_Prod2_ON_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
 	<delay type="none" />
 </reaction>
-<reaction text= "complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549 -- Prod2_OFF_biocrnpyler_381549 + protein_RNAP_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_7" species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549" />
+<reaction text= "complex_Prod2_ON_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- complex_Prod2_ON_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + BrocApt_biocrnpyler_381549_1_combined_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_5" species="complex_Prod2_ON_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
 	<delay type="none" />
 </reaction>
-<reaction text= "complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549 -- Prod2_OFF_biocrnpyler_381549 + BrocApt_biocrnpyler_381549_1_combined + protein_RNAP_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_8" species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549" />
+<reaction text= "Prod2_OFF_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_6" species="Prod2_OFF_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010*protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
 	<delay type="none" />
 </reaction>
-<reaction text= "complex_Prod2_AI_biocrnpyler_381549 + protein_RNAseH_biocrnpyler_381549 -- complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_9" species="complex_Prod2_AI_biocrnpyler_381549*protein_RNAseH_biocrnpyler_381549" />
+<reaction text= "complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- Prod2_OFF_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_7" species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
 	<delay type="none" />
 </reaction>
-<reaction text= "complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549 -- complex_Prod2_AI_biocrnpyler_381549 + protein_RNAseH_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_10" species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549" />
+<reaction text= "complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- Prod2_OFF_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + BrocApt_biocrnpyler_381549_1_combined_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_8" species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
 	<delay type="none" />
 </reaction>
-<reaction text= "complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549 -- dna_dA1_biocrnpyler_381549 + protein_RNAseH_biocrnpyler_381549 ">
-	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_11" species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549" />
+<reaction text= "complex_Prod2_AI_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_9" species="complex_Prod2_AI_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010*protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
 	<delay type="none" />
 </reaction>
-<reaction text= "BrocApt_biocrnpyler_381549_1_combined + DFHBI_biocrnpyler_35010 -- complex_BrocApt_DFHBI_biocrnpyler_35010 ">
-	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_12" species="BrocApt_biocrnpyler_381549_1_combined*DFHBI_biocrnpyler_35010" />
+<reaction text= "complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- complex_Prod2_AI_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_10" species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
+	<delay type="none" />
+</reaction>
+<reaction text= "complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- dna_dA1_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_UnimolecularPropensity_k_11" species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_381549_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
+	<delay type="none" />
+</reaction>
+<reaction text= "BrocApt_biocrnpyler_381549_1_combined_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 + DFHBI_biocrnpyler_35010_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 -- complex_BrocApt_DFHBI_biocrnpyler_35010_combined_model_of__biocrnpyler_381549_biocrnpyler_35010 ">
+	<propensity type="massaction" k="DummyVar_BimolecularPropensity_k_12" species="BrocApt_biocrnpyler_381549_1_combined_combined_model_of__biocrnpyler_381549_biocrnpyler_35010*DFHBI_biocrnpyler_35010_combined_model_of__biocrnpyler_381549_biocrnpyler_35010" />
 	<delay type="none" />
 </reaction>
 

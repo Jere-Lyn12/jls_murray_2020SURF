@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
-  <model id="combined_model_of__combined_model_of__combined_model_of__external_reservoir_model_combined_model_of__rnaexp_membrane_combined_model_of__biocrnpyler_135091_combined_model_of__combined_model_of__external_reservoir_model_combined_model_of__rnaexp_membrane_combined_model_of__biocrnpyler_821483" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
+  <model id="combined_model_of__combined_model_of__combined_model_of__external_reservoir_model_combined_model_of__rnaexp_membrane_combined_model_of__biocrnpyler_894839_combined_model_of__combined_model_of__external_reservoir_model_combined_model_of__rnaexp_membrane_combined_model_of__biocrnpyler_827463" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
     <listOfUnitDefinitions>
       <unitDefinition id="square_metre">
         <listOfUnits>
@@ -25,62 +25,63 @@
       <compartment id="cell_4_internal_combined" name="cell_4_internal" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="rna_rR1_external_reservoir_model_1_combined" name="rna_rR1" compartment="cell_3_external_combined" initialAmount="100" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="VirE2_b" name="VirE2_b" compartment="cell_3_internal_combined" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="VirE2_b_rna_rR1" name="VirE2_b_rna_rR1" compartment="cell_3_internal_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="Core1_OFF_biocrnpyler_135091" name="Core1_OFF" compartment="cell_3_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_ON_biocrnpyler_135091" name="complex_Core1_ON" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR1_1_1_combined" name="rna_rR1" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="dna_dA2_biocrnpyler_135091" name="dna_dA2" compartment="cell_3_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR2_biocrnpyler_135091" name="rna_rR2" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAP_biocrnpyler_135091" name="protein_RNAP" compartment="cell_3_internal_combined" initialAmount="300" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAseH_biocrnpyler_135091" name="protein_RNAseH" compartment="cell_3_internal_combined" initialAmount="20" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_AI_biocrnpyler_135091" name="complex_Core1_AI" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_ON_protein_RNAP_biocrnpyler_135091" name="complex_Core1_ON_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_OFF_protein_RNAP_biocrnpyler_135091" name="complex_Core1_OFF_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core1_AI_protein_RNAseH_biocrnpyler_135091" name="complex_Core1_AI_protein_RNAseH" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="Core2_OFF_biocrnpyler_135091" name="Core2_OFF" compartment="cell_3_internal_combined" initialAmount="4000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_ON_biocrnpyler_135091" name="complex_Core2_ON" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="dna_dA1_biocrnpyler_135091" name="dna_dA1" compartment="cell_3_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR1_i_biocrnpyler_135091" name="rna_rR1_i" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_AI_biocrnpyler_135091" name="complex_Core2_AI" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_ON_protein_RNAP_biocrnpyler_135091" name="complex_Core2_ON_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_OFF_protein_RNAP_biocrnpyler_135091" name="complex_Core2_OFF_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Core2_AI_protein_RNAseH_biocrnpyler_135091" name="complex_Core2_AI_protein_RNAseH" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="Prod2_OFF_biocrnpyler_821483" name="Prod2_OFF" compartment="cell_4_internal_combined" initialAmount="4000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Prod2_ON_biocrnpyler_821483" name="complex_Prod2_ON" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_BrocApt_biocrnpyler_821483" name="rna_BrocApt" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="dna_dA1_biocrnpyler_821483" name="dna_dA1" compartment="cell_4_internal_combined" initialAmount="4000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAP_biocrnpyler_821483" name="protein_RNAP" compartment="cell_4_internal_combined" initialAmount="300" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RNAseH_biocrnpyler_821483" name="protein_RNAseH" compartment="cell_4_internal_combined" initialAmount="20" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Prod2_AI_biocrnpyler_821483" name="complex_Prod2_AI" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Prod2_ON_protein_RNAP_biocrnpyler_821483" name="complex_Prod2_ON_protein_RNAP" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Prod2_OFF_protein_RNAP_biocrnpyler_821483" name="complex_Prod2_OFF_protein_RNAP" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="complex_Prod2_AI_protein_RNAseH_biocrnpyler_821483" name="complex_Prod2_AI_protein_RNAseH" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_e_external_reservoir_model_1_combined" name="rna_rR1_e" compartment="cell_3_external_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="sid" name="sid" compartment="cell_3_internal_combined" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_sid" name="rna_rR1_sid" compartment="cell_3_internal_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Core1_OFF_biocrnpyler_894839" name="Core1_OFF" compartment="cell_3_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_ON_biocrnpyler_894839" name="complex_Core1_ON" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1_1_combined" name="rna_rR1" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dna_dA2_biocrnpyler_894839" name="dna_dA2" compartment="cell_3_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR2_biocrnpyler_894839" name="rna_rR2" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAP_biocrnpyler_894839" name="protein_RNAP" compartment="cell_3_internal_combined" initialAmount="300" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAseH_biocrnpyler_894839" name="protein_RNAseH" compartment="cell_3_internal_combined" initialAmount="20" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_AI_biocrnpyler_894839" name="complex_Core1_AI" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_ON_protein_RNAP_biocrnpyler_894839" name="complex_Core1_ON_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_OFF_protein_RNAP_biocrnpyler_894839" name="complex_Core1_OFF_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core1_AI_protein_RNAseH_biocrnpyler_894839" name="complex_Core1_AI_protein_RNAseH" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Core2_OFF_biocrnpyler_894839" name="Core2_OFF" compartment="cell_3_internal_combined" initialAmount="4000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_ON_biocrnpyler_894839" name="complex_Core2_ON" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dna_dA1_biocrnpyler_894839" name="dna_dA1" compartment="cell_3_internal_combined" initialAmount="6000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_AI_biocrnpyler_894839" name="complex_Core2_AI" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_ON_protein_RNAP_biocrnpyler_894839" name="complex_Core2_ON_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_OFF_protein_RNAP_biocrnpyler_894839" name="complex_Core2_OFF_protein_RNAP" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Core2_AI_protein_RNAseH_biocrnpyler_894839" name="complex_Core2_AI_protein_RNAseH" compartment="cell_3_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1" name="rna_rR1" compartment="cell_4_internal_combined" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Prod2_OFF_biocrnpyler_827463" name="Prod2_OFF" compartment="cell_4_internal_combined" initialAmount="4000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Prod2_ON_biocrnpyler_827463" name="complex_Prod2_ON" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="BrocApt_biocrnpyler_827463" name="BrocApt" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dA1_biocrnpyler_827463" name="dA1" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rR1_biocrnpyler_827463" name="rR1" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAP_biocrnpyler_827463" name="protein_RNAP" compartment="cell_4_internal_combined" initialAmount="300" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_RNAseH_biocrnpyler_827463" name="protein_RNAseH" compartment="cell_4_internal_combined" initialAmount="20" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Prod2_AI_biocrnpyler_827463" name="complex_Prod2_AI" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Prod2_ON_protein_RNAP_biocrnpyler_827463" name="complex_Prod2_ON_protein_RNAP" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Prod2_OFF_protein_RNAP_biocrnpyler_827463" name="complex_Prod2_OFF_protein_RNAP" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="complex_Prod2_AI_protein_RNAseH_biocrnpyler_827463" name="complex_Prod2_AI_protein_RNAseH" compartment="cell_4_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
-      <parameter id="kb_combined" name="kb" value="0.01" units="per_second" constant="false"/>
-      <parameter id="kd_combined" name="kd" value="0.2" units="per_second" constant="false"/>
+      <parameter id="kb_combined" name="kb" value="0.2" units="per_second" constant="false"/>
+      <parameter id="kd_combined" name="kd" value="0.01" units="per_second" constant="false"/>
     </listOfParameters>
     <listOfReactions>
-      <reaction id="r0_biocrnpyler_135091" name="r0" reversible="false">
+      <reaction id="r0_biocrnpyler_894839" name="r0" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.00394  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="Core1_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="dna_dA2_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core1_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="dna_dA2_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core1_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> Core1_OFF_biocrnpyler_135091 </ci>
-              <ci> dna_dA2_biocrnpyler_135091 </ci>
+              <ci> Core1_OFF_biocrnpyler_894839 </ci>
+              <ci> dna_dA2_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -88,25 +89,25 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r1_biocrnpyler_135091" name="r1" reversible="false">
+      <reaction id="r1_biocrnpyler_894839" name="r1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.0696  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core1_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR2_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR2_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Core1_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="complex_Core1_AI_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core1_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_AI_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core1_ON_biocrnpyler_135091 </ci>
-              <ci> rna_rR2_biocrnpyler_135091 </ci>
+              <ci> complex_Core1_ON_biocrnpyler_894839 </ci>
+              <ci> rna_rR2_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -114,24 +115,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r2_biocrnpyler_135091" name="r2" reversible="false">
+      <reaction id="r2_biocrnpyler_894839" name="r2" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.0696  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="dna_dA2_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR2_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="dna_dA2_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR2_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core1_AI_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_AI_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> dna_dA2_biocrnpyler_135091 </ci>
-              <ci> rna_rR2_biocrnpyler_135091 </ci>
+              <ci> dna_dA2_biocrnpyler_894839 </ci>
+              <ci> rna_rR2_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -139,24 +140,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r3_biocrnpyler_135091" name="r3" reversible="false">
+      <reaction id="r3_biocrnpyler_894839" name="r3" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=38.857142857142854  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core1_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core1_ON_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_ON_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core1_ON_biocrnpyler_135091 </ci>
-              <ci> protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core1_ON_biocrnpyler_894839 </ci>
+              <ci> protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -164,23 +165,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r3_1_biocrnpyler_135091" name="r3_1" reversible="false">
+      <reaction id="r3_1_biocrnpyler_894839" name="r3_1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=10.0  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core1_ON_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_ON_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core1_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core1_ON_protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core1_ON_protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -188,24 +189,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r5_biocrnpyler_135091" name="r5" reversible="false">
+      <reaction id="r5_biocrnpyler_894839" name="r5" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.064  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core1_ON_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_ON_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core1_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR1_1_1_combined" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1_1_combined" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core1_ON_protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core1_ON_protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -213,24 +214,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r6_biocrnpyler_135091" name="r6" reversible="false">
+      <reaction id="r6_biocrnpyler_894839" name="r6" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=9.53047619047619  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="Core1_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core1_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core1_OFF_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_OFF_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> Core1_OFF_biocrnpyler_135091 </ci>
-              <ci> protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> Core1_OFF_biocrnpyler_894839 </ci>
+              <ci> protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -238,23 +239,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r6_1_biocrnpyler_135091" name="r6_1" reversible="false">
+      <reaction id="r6_1_biocrnpyler_894839" name="r6_1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=10.0  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core1_OFF_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_OFF_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Core1_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core1_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core1_OFF_protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core1_OFF_protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -262,24 +263,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r8_biocrnpyler_135091" name="r8" reversible="false">
+      <reaction id="r8_biocrnpyler_894839" name="r8" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.007  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core1_OFF_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_OFF_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Core1_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR1_1_1_combined" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core1_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1_1_combined" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core1_OFF_protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core1_OFF_protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -287,24 +288,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r9_biocrnpyler_135091" name="r9" reversible="false">
+      <reaction id="r9_biocrnpyler_894839" name="r9" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=111.82417582417582  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core1_AI_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_AI_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core1_AI_protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_AI_protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core1_AI_biocrnpyler_135091 </ci>
-              <ci> protein_RNAseH_biocrnpyler_135091 </ci>
+              <ci> complex_Core1_AI_biocrnpyler_894839 </ci>
+              <ci> protein_RNAseH_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -312,23 +313,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r9_1_biocrnpyler_135091" name="r9_1" reversible="false">
+      <reaction id="r9_1_biocrnpyler_894839" name="r9_1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=10.0  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core1_AI_protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_AI_protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core1_AI_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_AI_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core1_AI_protein_RNAseH_biocrnpyler_135091 </ci>
+              <ci> complex_Core1_AI_protein_RNAseH_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -336,23 +337,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r11_biocrnpyler_135091" name="r11" reversible="false">
+      <reaction id="r11_biocrnpyler_894839" name="r11" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.176  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core1_AI_protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core1_AI_protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="dna_dA2_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="dna_dA2_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core1_AI_protein_RNAseH_biocrnpyler_135091 </ci>
+              <ci> complex_Core1_AI_protein_RNAseH_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -360,24 +361,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r12_biocrnpyler_135091" name="r12" reversible="false">
+      <reaction id="r12_biocrnpyler_894839" name="r12" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.00394  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="Core2_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="dna_dA1_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core2_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="dna_dA1_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core2_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> Core2_OFF_biocrnpyler_135091 </ci>
-              <ci> dna_dA1_biocrnpyler_135091 </ci>
+              <ci> Core2_OFF_biocrnpyler_894839 </ci>
+              <ci> dna_dA1_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -385,25 +386,25 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r13_biocrnpyler_135091" name="r13" reversible="false">
+      <reaction id="r13_biocrnpyler_894839" name="r13" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.0696  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core2_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR1_i_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1_1_combined" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Core2_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="complex_Core2_AI_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core2_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_AI_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core2_ON_biocrnpyler_135091 </ci>
-              <ci> rna_rR1_i_biocrnpyler_135091 </ci>
+              <ci> complex_Core2_ON_biocrnpyler_894839 </ci>
+              <ci> rna_rR1_1_combined </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -411,24 +412,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r14_biocrnpyler_135091" name="r14" reversible="false">
+      <reaction id="r14_biocrnpyler_894839" name="r14" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.0696  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="dna_dA1_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR1_i_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="dna_dA1_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1_1_combined" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core2_AI_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_AI_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> dna_dA1_biocrnpyler_135091 </ci>
-              <ci> rna_rR1_i_biocrnpyler_135091 </ci>
+              <ci> dna_dA1_biocrnpyler_894839 </ci>
+              <ci> rna_rR1_1_combined </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -436,24 +437,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r15_biocrnpyler_135091" name="r15" reversible="false">
+      <reaction id="r15_biocrnpyler_894839" name="r15" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=38.857142857142854  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core2_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core2_ON_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_ON_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core2_ON_biocrnpyler_135091 </ci>
-              <ci> protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core2_ON_biocrnpyler_894839 </ci>
+              <ci> protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -461,23 +462,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r15_1_biocrnpyler_135091" name="r15_1" reversible="false">
+      <reaction id="r15_1_biocrnpyler_894839" name="r15_1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=10.0  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core2_ON_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_ON_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core2_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core2_ON_protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core2_ON_protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -485,24 +486,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r17_biocrnpyler_135091" name="r17" reversible="false">
+      <reaction id="r17_biocrnpyler_894839" name="r17" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.064  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core2_ON_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_ON_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core2_ON_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR2_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_ON_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR2_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core2_ON_protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core2_ON_protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -510,24 +511,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r18_biocrnpyler_135091" name="r18" reversible="false">
+      <reaction id="r18_biocrnpyler_894839" name="r18" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=9.53047619047619  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="Core2_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core2_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core2_OFF_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_OFF_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> Core2_OFF_biocrnpyler_135091 </ci>
-              <ci> protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> Core2_OFF_biocrnpyler_894839 </ci>
+              <ci> protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -535,23 +536,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r18_1_biocrnpyler_135091" name="r18_1" reversible="false">
+      <reaction id="r18_1_biocrnpyler_894839" name="r18_1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=10.0  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core2_OFF_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_OFF_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Core2_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core2_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core2_OFF_protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core2_OFF_protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -559,24 +560,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r20_biocrnpyler_135091" name="r20" reversible="false">
+      <reaction id="r20_biocrnpyler_894839" name="r20" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.007  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core2_OFF_protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_OFF_protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Core2_OFF_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR2_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="Core2_OFF_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR2_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core2_OFF_protein_RNAP_biocrnpyler_135091 </ci>
+              <ci> complex_Core2_OFF_protein_RNAP_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -584,24 +585,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r21_biocrnpyler_135091" name="r21" reversible="false">
+      <reaction id="r21_biocrnpyler_894839" name="r21" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=111.82417582417582  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core2_AI_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_AI_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core2_AI_protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_AI_protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core2_AI_biocrnpyler_135091 </ci>
-              <ci> protein_RNAseH_biocrnpyler_135091 </ci>
+              <ci> complex_Core2_AI_biocrnpyler_894839 </ci>
+              <ci> protein_RNAseH_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -609,23 +610,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r21_1_biocrnpyler_135091" name="r21_1" reversible="false">
+      <reaction id="r21_1_biocrnpyler_894839" name="r21_1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=10.0  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core2_AI_protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_AI_protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Core2_AI_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_AI_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core2_AI_protein_RNAseH_biocrnpyler_135091 </ci>
+              <ci> complex_Core2_AI_protein_RNAseH_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -633,23 +634,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r23_biocrnpyler_135091" name="r23" reversible="false">
+      <reaction id="r23_biocrnpyler_894839" name="r23" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.176  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Core2_AI_protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Core2_AI_protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="dna_dA1_biocrnpyler_135091" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAseH_biocrnpyler_135091" stoichiometry="1" constant="false"/>
+          <speciesReference species="dna_dA1_biocrnpyler_894839" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAseH_biocrnpyler_894839" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Core2_AI_protein_RNAseH_biocrnpyler_135091 </ci>
+              <ci> complex_Core2_AI_protein_RNAseH_biocrnpyler_894839 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -657,24 +658,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r0_biocrnpyler_821483" name="r0" reversible="false">
+      <reaction id="r0_biocrnpyler_827463" name="r0" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.00394  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="Prod2_OFF_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="dna_dA1_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="Prod2_OFF_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="dA1_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Prod2_ON_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_ON_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> Prod2_OFF_biocrnpyler_821483 </ci>
-              <ci> dna_dA1_biocrnpyler_821483 </ci>
+              <ci> Prod2_OFF_biocrnpyler_827463 </ci>
+              <ci> dA1_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -682,25 +683,25 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r1_biocrnpyler_821483" name="r1" reversible="false">
+      <reaction id="r1_biocrnpyler_827463" name="r1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.0696  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Prod2_ON_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR1_1_1_combined" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_ON_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="rR1_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Prod2_OFF_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="complex_Prod2_AI_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="Prod2_OFF_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_AI_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Prod2_ON_biocrnpyler_821483 </ci>
-              <ci> rna_rR1_1_1_combined </ci>
+              <ci> complex_Prod2_ON_biocrnpyler_827463 </ci>
+              <ci> rR1_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -708,24 +709,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r2_biocrnpyler_821483" name="r2" reversible="false">
+      <reaction id="r2_biocrnpyler_827463" name="r2" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.0696  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="dna_dA1_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR1_1_1_combined" stoichiometry="1" constant="false"/>
+          <speciesReference species="dA1_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="rR1_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Prod2_AI_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_AI_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> dna_dA1_biocrnpyler_821483 </ci>
-              <ci> rna_rR1_1_1_combined </ci>
+              <ci> dA1_biocrnpyler_827463 </ci>
+              <ci> rR1_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -733,24 +734,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r3_biocrnpyler_821483" name="r3" reversible="false">
+      <reaction id="r3_biocrnpyler_827463" name="r3" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=38.857142857142854  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Prod2_ON_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_ON_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Prod2_ON_protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_ON_protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Prod2_ON_biocrnpyler_821483 </ci>
-              <ci> protein_RNAP_biocrnpyler_821483 </ci>
+              <ci> complex_Prod2_ON_biocrnpyler_827463 </ci>
+              <ci> protein_RNAP_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -758,23 +759,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r3_1_biocrnpyler_821483" name="r3_1" reversible="false">
+      <reaction id="r3_1_biocrnpyler_827463" name="r3_1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=10.0  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Prod2_ON_protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_ON_protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Prod2_ON_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_ON_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Prod2_ON_protein_RNAP_biocrnpyler_821483 </ci>
+              <ci> complex_Prod2_ON_protein_RNAP_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -782,24 +783,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r5_biocrnpyler_821483" name="r5" reversible="false">
+      <reaction id="r5_biocrnpyler_827463" name="r5" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.064  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Prod2_ON_protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_ON_protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Prod2_ON_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_BrocApt_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_ON_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="BrocApt_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Prod2_ON_protein_RNAP_biocrnpyler_821483 </ci>
+              <ci> complex_Prod2_ON_protein_RNAP_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -807,24 +808,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r6_biocrnpyler_821483" name="r6" reversible="false">
+      <reaction id="r6_biocrnpyler_827463" name="r6" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=9.53047619047619  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="Prod2_OFF_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="Prod2_OFF_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> Prod2_OFF_biocrnpyler_821483 </ci>
-              <ci> protein_RNAP_biocrnpyler_821483 </ci>
+              <ci> Prod2_OFF_biocrnpyler_827463 </ci>
+              <ci> protein_RNAP_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -832,23 +833,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r6_1_biocrnpyler_821483" name="r6_1" reversible="false">
+      <reaction id="r6_1_biocrnpyler_827463" name="r6_1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=10.0  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Prod2_OFF_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="Prod2_OFF_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Prod2_OFF_protein_RNAP_biocrnpyler_821483 </ci>
+              <ci> complex_Prod2_OFF_protein_RNAP_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -856,24 +857,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r8_biocrnpyler_821483" name="r8" reversible="false">
+      <reaction id="r8_biocrnpyler_827463" name="r8" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.007  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_OFF_protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Prod2_OFF_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_BrocApt_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAP_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="Prod2_OFF_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="BrocApt_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAP_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Prod2_OFF_protein_RNAP_biocrnpyler_821483 </ci>
+              <ci> complex_Prod2_OFF_protein_RNAP_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -881,24 +882,24 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r9_biocrnpyler_821483" name="r9" reversible="false">
+      <reaction id="r9_biocrnpyler_827463" name="r9" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=111.82417582417582  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Prod2_AI_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAseH_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_AI_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAseH_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Prod2_AI_biocrnpyler_821483 </ci>
-              <ci> protein_RNAseH_biocrnpyler_821483 </ci>
+              <ci> complex_Prod2_AI_biocrnpyler_827463 </ci>
+              <ci> protein_RNAseH_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -906,23 +907,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r9_1_biocrnpyler_821483" name="r9_1" reversible="false">
+      <reaction id="r9_1_biocrnpyler_827463" name="r9_1" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=10.0  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="complex_Prod2_AI_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAseH_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_AI_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAseH_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Prod2_AI_protein_RNAseH_biocrnpyler_821483 </ci>
+              <ci> complex_Prod2_AI_protein_RNAseH_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -930,23 +931,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="r11_biocrnpyler_821483" name="r11" reversible="false">
+      <reaction id="r11_biocrnpyler_827463" name="r11" reversible="false">
         <annotation>
           <PropensityType> type=massaction k=0.176  </PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="complex_Prod2_AI_protein_RNAseH_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="dna_dA1_biocrnpyler_821483" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_RNAseH_biocrnpyler_821483" stoichiometry="1" constant="false"/>
+          <speciesReference species="dA1_biocrnpyler_827463" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_RNAseH_biocrnpyler_827463" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> complex_Prod2_AI_protein_RNAseH_biocrnpyler_821483 </ci>
+              <ci> complex_Prod2_AI_protein_RNAseH_biocrnpyler_827463 </ci>
             </apply>
           </math>
           <listOfLocalParameters>
