@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
-  <model id="biocrnpyler_446776" name="biocrnpyler_446776" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
+  <model id="biocrnpyler_749711" name="biocrnpyler_749711" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
     <listOfUnitDefinitions>
       <unitDefinition id="square_metre">
         <listOfUnits>
@@ -15,8 +15,8 @@
       <species id="Prod2_OFF" name="Prod2_OFF" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_Prod2_ON" name="complex_Prod2_ON" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="BrocApt" name="BrocApt" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="dna_dA1" name="dna_dA1" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rR1" name="rna_rR1" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dna_dAP" name="dna_dAP" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rR1P" name="rna_rR1P" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="protein_RNAP" name="protein_RNAP" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="protein_RNAseH" name="protein_RNAseH" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_Prod2_AI" name="complex_Prod2_AI" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
@@ -31,7 +31,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="Prod2_OFF" stoichiometry="1" constant="false"/>
-          <speciesReference species="dna_dA1" stoichiometry="1" constant="false"/>
+          <speciesReference species="dna_dAP" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="complex_Prod2_ON" stoichiometry="1" constant="false"/>
@@ -42,7 +42,7 @@
               <times/>
               <ci> k </ci>
               <ci> Prod2_OFF </ci>
-              <ci> dna_dA1 </ci>
+              <ci> dna_dAP </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -56,7 +56,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="complex_Prod2_ON" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR1" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1P" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="Prod2_OFF" stoichiometry="1" constant="false"/>
@@ -68,7 +68,7 @@
               <times/>
               <ci> k </ci>
               <ci> complex_Prod2_ON </ci>
-              <ci> rna_rR1 </ci>
+              <ci> rna_rR1P </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -81,8 +81,8 @@
           <PropensityType> type=massaction k=0.0696</PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="dna_dA1" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rR1" stoichiometry="1" constant="false"/>
+          <speciesReference species="dna_dAP" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rR1P" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="complex_Prod2_AI" stoichiometry="1" constant="false"/>
@@ -92,8 +92,8 @@
             <apply>
               <times/>
               <ci> k </ci>
-              <ci> dna_dA1 </ci>
-              <ci> rna_rR1 </ci>
+              <ci> dna_dAP </ci>
+              <ci> rna_rR1P </ci>
             </apply>
           </math>
           <listOfLocalParameters>
@@ -306,7 +306,7 @@
           <speciesReference species="complex_Prod2_AI_protein_RNAseH" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="dna_dA1" stoichiometry="1" constant="false"/>
+          <speciesReference species="dna_dAP" stoichiometry="1" constant="false"/>
           <speciesReference species="protein_RNAseH" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
-  <model id="shared_model_of_external_reservoir_model" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
+  <model id="external_environment_model" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
     <listOfUnitDefinitions>
       <unitDefinition id="square_metre">
         <listOfUnits>
@@ -19,7 +19,11 @@
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment id="cell_P_external" name="cell_P_external" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
+      <compartment id="external_environment" name="external_environment" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
     </listOfCompartments>
+    <listOfSpecies>
+      <species id="rna_rR1_e" name="rna_rR1_e" compartment="external_environment" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="BrocApt_e" name="BrocApt_e" compartment="external_environment" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
   </model>
 </sbml>
