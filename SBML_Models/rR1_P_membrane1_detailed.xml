@@ -19,13 +19,19 @@
     </listOfCompartments>
     <listOfSpecies>
       <species id="sidP" name="sidP" compartment="internal" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="sidB" name="sidB" compartment="internal" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="rna_rR1_e" name="rna_rR1_e" compartment="external" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="rna_rR1_e_sidP" name="rna_rR1_e_sidP" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="rna_rR1P" name="rna_rR1P" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="BrocApt_e" name="BrocApt_e" compartment="external" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="BrocApt" name="BrocApt" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="BrocApt_sidB" name="BrocApt_sidB" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="kb1" name="kb1" value="0.01" units="per_second" constant="false"/>
       <parameter id="kd1" name="kd1" value="0.2" units="per_second" constant="false"/>
+      <parameter id="kc" name="kc" value="0.2" units="per_second" constant="false"/>
+      <parameter id="ke" name="ke" value="0.01" units="per_second" constant="false"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="R3" reversible="true">
@@ -77,6 +83,60 @@
                 <ci> kb1 </ci>
                 <ci> sidP </ci>
                 <ci> rna_rR1P </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R5" reversible="true">
+        <listOfReactants>
+          <speciesReference species="sidB" stoichiometry="1" constant="false"/>
+          <speciesReference species="BrocApt" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="BrocApt_sidB" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kc </ci>
+                <ci> sidB </ci>
+                <ci> BrocApt </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> ke </ci>
+                <ci> BrocApt_sidB </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R6" reversible="true">
+        <listOfReactants>
+          <speciesReference species="BrocApt_sidB" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="BrocApt_e" stoichiometry="1" constant="false"/>
+          <speciesReference species="sidB" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> ke </ci>
+                <ci> BrocApt_sidB </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kc </ci>
+                <ci> sidB </ci>
+                <ci> BrocApt_e </ci>
               </apply>
             </apply>
           </math>

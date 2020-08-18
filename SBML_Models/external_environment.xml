@@ -24,6 +24,7 @@
     <listOfSpecies>
       <species id="rna_rR1_e" name="rna_rR1_e" compartment="external_environment" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="BrocApt_e" name="BrocApt_e" compartment="external_environment" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DFHBI_e" name="DFHBI_e" compartment="external_environment" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
   </model>
 </sbml>

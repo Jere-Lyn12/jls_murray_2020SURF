@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
-  <model id="combined_model_of__combined_model_of__external_environment_model_combined_model_of__rnaexp_membrane3_rnaexp_membrane2_combined_model_of__combined_model_of__biocrnpyler_129318_biocrnpyler_812450" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
+  <model id="combined_model_of__combined_model_of__external_environment_model_combined_model_of__rnaexp_membrane3_DFHBI_membrane_combined_model_of__combined_model_of__biocrnpyler_129318_biocrnpyler_812450" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
     <listOfUnitDefinitions>
       <unitDefinition id="square_metre">
         <listOfUnits>
@@ -24,11 +24,12 @@
     </listOfCompartments>
     <listOfSpecies>
       <species id="sidP" name="sidP" compartment="cell_P_internal_combined" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="sidB" name="sidB" compartment="cell_P_internal_combined" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="rna_rR1_e_external_environment_model_1_combined" name="rna_rR1_e" compartment="actual_external" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="rna_rR1_e_sidP" name="rna_rR1_e_sidP" compartment="cell_P_internal_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="sidB" name="sidB" compartment="cell_P_internal_combined" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="BrocApt_e_external_environment_model_1_combined" name="BrocApt_e" compartment="actual_external" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="BrocApt_sidB" name="BrocApt_sidB" compartment="cell_P_internal_combined" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DFHBI_e_external_environment_model_1_combined" name="DFHBI_e" compartment="actual_external" initialConcentration="10000" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="Prod2_OFF_biocrnpyler_129318_combined_model_of__biocrnpyler_129318_biocrnpyler_812450" name="Prod2_OFF" compartment="cell_P_internal_combined" initialAmount="4000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_Prod2_ON_biocrnpyler_129318_combined_model_of__biocrnpyler_129318_biocrnpyler_812450" name="complex_Prod2_ON" compartment="cell_P_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="dna_dAP_biocrnpyler_129318_combined_model_of__biocrnpyler_129318_biocrnpyler_812450" name="dna_dAP" compartment="cell_P_internal_combined" initialAmount="4000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
@@ -40,7 +41,7 @@
       <species id="complex_Prod2_OFF_protein_RNAP_biocrnpyler_129318_combined_model_of__biocrnpyler_129318_biocrnpyler_812450" name="complex_Prod2_OFF_protein_RNAP" compartment="cell_P_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_Prod2_AI_protein_RNAseH_biocrnpyler_129318_combined_model_of__biocrnpyler_129318_biocrnpyler_812450" name="complex_Prod2_AI_protein_RNAseH" compartment="cell_P_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="BrocApt_1_combined" name="BrocApt" compartment="cell_P_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="DFHBI_biocrnpyler_812450_combined_model_of__biocrnpyler_129318_biocrnpyler_812450" name="DFHBI" compartment="cell_P_internal_combined" initialAmount="60000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DFHBI_1_combined" name="DFHBI" compartment="cell_P_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="complex_BrocApt_DFHBI_biocrnpyler_812450_combined_model_of__biocrnpyler_129318_biocrnpyler_812450" name="complex_BrocApt_DFHBI" compartment="cell_P_internal_combined" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
@@ -48,6 +49,8 @@
       <parameter id="kd1" name="kd1" value="0.2" units="per_second" constant="false"/>
       <parameter id="kc" name="kc" value="0.2" units="per_second" constant="false"/>
       <parameter id="ke" name="ke" value="0.01" units="per_second" constant="false"/>
+      <parameter id="kb_D" name="kb_D" value="0.002" units="per_second" constant="false"/>
+      <parameter id="kd_D" name="kd_D" value="1e-05" units="per_second" constant="false"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="R3" reversible="true">
@@ -153,6 +156,56 @@
                 <ci> kc </ci>
                 <ci> sidB </ci>
                 <ci> BrocApt_e_external_environment_model_1_combined </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r1" reversible="true">
+        <listOfReactants>
+          <speciesReference species="DFHBI_e_external_environment_model_1_combined" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DFHBI_1_combined" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kb_D </ci>
+                <ci> DFHBI_e_external_environment_model_1_combined </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_D </ci>
+                <ci> DFBHI </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r2" reversible="true">
+        <listOfReactants>
+          <speciesReference species="DFHBI_e_external_environment_model_1_combined" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DFHBI_1_combined" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kd_D </ci>
+                <ci> DFHBI_e_external_environment_model_1_combined </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kb_D </ci>
+                <ci> DFBHI </ci>
               </apply>
             </apply>
           </math>
@@ -461,7 +514,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="BrocApt_1_combined" stoichiometry="1" constant="false"/>
-          <speciesReference species="DFHBI_biocrnpyler_812450_combined_model_of__biocrnpyler_129318_biocrnpyler_812450" stoichiometry="1" constant="false"/>
+          <speciesReference species="DFHBI_1_combined" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="complex_BrocApt_DFHBI_biocrnpyler_812450_combined_model_of__biocrnpyler_129318_biocrnpyler_812450" stoichiometry="1" constant="false"/>
@@ -472,7 +525,7 @@
               <times/>
               <ci> k </ci>
               <ci> BrocApt_1_combined </ci>
-              <ci> DFHBI_biocrnpyler_812450_combined_model_of__biocrnpyler_129318_biocrnpyler_812450 </ci>
+              <ci> DFHBI_1_combined </ci>
             </apply>
           </math>
           <listOfLocalParameters>
