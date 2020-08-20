@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="Nexp_membrane" substanceUnits="substance" timeUnits="second" extentUnits="mole">
+    <listOfUnitDefinitions>
+      <unitDefinition id="per_second">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance">
+        <listOfUnits>
+          <unit kind="dimensionless" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="internal" name="internal" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
+      <compartment id="external" name="external" spatialDimensions="3" size="1e-06" units="litre" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="sidI1" name="sidI1" compartment="internal" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="sidI2" name="sidI2" compartment="internal" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="sidI4" name="sidI4" compartment="internal" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_I1_e" name="rna_I1_e" compartment="external" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_I1" name="rna_I1" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_I1_e_sidI1" name="rna_I1_e_sidI1" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_I2_e" name="rna_I2_e" compartment="external" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_I2" name="rna_I2" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_I2_e_sidI2" name="rna_I2_e_sidI2" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_I4_e" name="rna_I4_e" compartment="external" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_I4" name="rna_I4" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_I4_sidI4" name="rna_I4_sidI4" compartment="internal" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="kb1" name="kb1" value="0.01" units="per_second" constant="false"/>
+      <parameter id="kd1" name="kd1" value="0.2" units="per_second" constant="false"/>
+      <parameter id="kc1" name="kc1" value="0.2" units="per_second" constant="false"/>
+      <parameter id="ke1" name="ke1" value="0.01" units="per_second" constant="false"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="R5" reversible="true">
+        <listOfReactants>
+          <speciesReference species="sidI1" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_I1_e" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_I1_e_sidI1" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kb1 </ci>
+                <ci> sidI1 </ci>
+                <ci> rna_I1_e </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd1 </ci>
+                <ci> rna_I1_e_sidI1 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R6" reversible="true">
+        <listOfReactants>
+          <speciesReference species="rna_I1_e_sidI1" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_I1" stoichiometry="1" constant="false"/>
+          <speciesReference species="sidI1" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kd1 </ci>
+                <ci> rna_I1_e_sidI1 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kb1 </ci>
+                <ci> sidI1 </ci>
+                <ci> rna_I1 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R7" reversible="true">
+        <listOfReactants>
+          <speciesReference species="sidI2" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_I2_e" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_I2_e_sidI2" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kb1 </ci>
+                <ci> sidI2 </ci>
+                <ci> rna_I2_e </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd1 </ci>
+                <ci> rna_I2_e_sidI2 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R8" reversible="true">
+        <listOfReactants>
+          <speciesReference species="rna_I2_e_sidI2" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_I2" stoichiometry="1" constant="false"/>
+          <speciesReference species="sidI2" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kd1 </ci>
+                <ci> rna_I2_e_sidI2 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kb1 </ci>
+                <ci> sidI2 </ci>
+                <ci> rna_I2 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R9" reversible="true">
+        <listOfReactants>
+          <speciesReference species="sidI4" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_I4" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_I4_sidI4" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kc1 </ci>
+                <ci> sidI4 </ci>
+                <ci> rna_I4 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> ke1 </ci>
+                <ci> rna_I4_sidI4 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R10" reversible="true">
+        <listOfReactants>
+          <speciesReference species="rna_I4_sidI4" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_I4_e" stoichiometry="1" constant="false"/>
+          <speciesReference species="sidI4" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> ke1 </ci>
+                <ci> rna_I4_sidI4 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kc1 </ci>
+                <ci> sidI4 </ci>
+                <ci> rna_I4_e </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
