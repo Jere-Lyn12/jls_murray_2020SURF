@@ -1,0 +1,42 @@
+include gro
+//// Initials for time and population ////
+set ( "dt", 0.01 );
+set ( "ecoli_growth_population", 0.01);
+set ( "population_max", 120);
+
+chemostat ( true );
+
+rR1 := signal(5, 0.1); //synthetic RNA
+k := 2; // reporter scaling factor
+
+////////
+// Cell 1 that will make rR1, pink signal
+////////
+program signaler() := {
+
+	yfp := 0;
+	true : { 
+		yfp := volume * 100,
+		emit_signal(rR1, 0.2) } 
+};
+
+/////////
+// Cell 2 with Broccoli aptamer that will be repressed
+// gfp content set at 2000
+/////////
+
+program reciever() := {
+	gfp := 2000;
+	r := [ t:= 0 ];
+	selected & just_divided : { print ( "At time ", r.t, ":After division, cell ", id, " has ", gfp, " broccoli aptamer") }
+	
+	true : { absorb_signal(rR1, 0.1) };
+	rate(k* get_signal(rR1)*gfp) : { gfp := gfp };
+	true : { r.t := r.t + dt }
+};
+	
+//// Position of the e.coli ////
+ecoli( [x:=50], program signaler() );
+ecoli( [x:=-50], program reciever() );
+
+
