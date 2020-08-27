@@ -3,8 +3,16 @@
 
 Genelet circuits (See 2nd README_Copy1)
 
-Genelet circuit code by Nazmus Saadat
+Genelet circuit code by Nazmus Saadat at:https://github.com/Chryron/GeneletLogicGate
 
-Load code and repository at:https://github.com/Chryron/GeneletLogicGate.git
+Further example with sub-SBML:https://github.com/agrimadeedwania/DNAexp_vesiclefusion
 
-Instructions on repository link above and at README_Copy1
+# Required #
+Gro:http://depts.washington.edu/soslab/gro/download.php
+
+BioSCRAPE:https://github.com/biocircuits/bioscrape
+
+BioCRNpyler: https://github.com/BuildACell/BioCRNPyler (compatible with alpha release; see Nazmus repositior)
+
+Sub-SBML:https://github.com/BuildACell/subsbml
+
